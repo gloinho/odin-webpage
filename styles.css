@@ -1,21 +1,19 @@
 body{
     font-family: 'Roboto', sans-serif;
-    width: 100vw;
     height: 100vh;
     margin: 0;
 }
 .body{
-    width: 100vw;
-    
     display: flex;
     flex-direction: column;  
+    flex-wrap: wrap;
 }
 .hero {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
     gap:100px;
-    padding: 20px 200px 150px 200px;
+    padding: 20px 200px 150px 200px; 
 }
 .header{
     display: flex;
@@ -29,18 +27,18 @@ body{
 }
 .content1{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 .content-left{
     display: flex;
     flex-direction: column;
     width: 450px;
-    gap:20px;
+    gap:25px;
 }
-
 .content1 .img{
-    width: 500px;
+    width: 600px;
+    height: 300px;
 }
 .button{
     background-color: #3882f6;
@@ -65,6 +63,7 @@ a,
     text-decoration: none;
 }
 .links{
+    margin-left: 100px;
     display: flex;
     gap:20px;
     justify-content: flex-end;
@@ -76,33 +75,25 @@ a,
     gap: 100px;
     padding-top: 50px;
     padding-bottom: 100px;
+
 }
 .content2 .title{
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
 }
-
-.content2 .border{
-    border-style: solid;
-    border-radius: 48px;
-    border-color: #3882f6;
+.content2 .img{
     width: 200px;
     height: 200px;
-    margin: 0;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 20px;
 }
-.content2 .borders{
+.many-images{
     display: flex;
-    gap: 100px;
+    gap: 20px;
 }
-.content2 .img{
-    display: flex;
-}
-
-.borders{
-    display: flex;
-}
-.info{
+.one-image{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,30 +105,28 @@ a,
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
-    padding: 200px;
+    padding: 50px 200px 50px 200px;
 }
-
 .content3 .author{
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
 }
 .content4{
-    padding: 200px 100px;
     display: flex;
     justify-content: center;
+    padding: 150px 200px;
 }
-
 .content4 .container2{
     background-color: #3882f6;
-    width: 1500px;
+    width: 1000px;
     height: 100px;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 50px;
 }
-
 .info2{
     display: flex;
     flex-direction: column;
